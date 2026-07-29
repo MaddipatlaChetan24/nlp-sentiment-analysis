@@ -364,9 +364,9 @@ flowchart TD
 
 ## License
 
-This project is for educational purposes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+Copyright (c) 2026 Maddipatla Chetan
 
 <div align="center">
 <sub>Built with Python, PyTorch, HuggingFace Transformers, scikit-learn, and Flask.</sub>
