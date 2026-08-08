@@ -2,16 +2,6 @@
 
 # Sentiment Analysis — Multi-Model Comparison
 
-**Compare 6 models — from Logistic Regression to DistilBERT — on the IMDB movie review dataset.**
-
-This project delivers a complete sentiment analysis pipeline with thorough text preprocessing, exploratory data analysis, hyperparameter tuning, and error analysis. Train, evaluate, and deploy multiple models to understand how different approaches handle the same classification task.
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)](https://huggingface.co/docs/transformers)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
-[![Flask](https://img.shields.io/badge/Flask-API-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 </div>
 
