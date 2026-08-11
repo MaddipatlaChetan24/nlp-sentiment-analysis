@@ -22,6 +22,27 @@ This project delivers a complete sentiment analysis pipeline with thorough text 
 Sentiment analysis is a fundamental NLP task — determining whether a piece of text expresses a positive or negative opinion. This project moves beyond a single LSTM implementation to provide a **rigorous, side-by-side comparison** of six models on the IMDB dataset (50,000 labeled movie reviews).
 
 | What | Why |
+|------|-----|
+| **6 models, one benchmark** | Compare traditional ML with deep learning and transformers on identical data |
+| **Production-ready preprocessing** | 9-stage text cleaning pipeline that handles real-world noise |
+| **Actionable evaluation** | Accuracy alone is not enough — we measure precision, recall, F1, ROC-AUC, and visualize errors |
+| **Deployable** | Flask API + batch CSV prediction for real-world use |
+
+---
+
+## Models
+
+| Model | Type | Tuning |
+|-------|------|--------|
+| **Logistic Regression** | Linear classifier | GridSearchCV (C, solver, max_features) |
+| **Naive Bayes** | Probabilistic | GridSearchCV (alpha, ngram_range) |
+| **SVM (Linear)** | Max-margin classifier | GridSearchCV (C, loss, max_features) |
+| **LSTM** | Recurrent neural network | Hyperparams in config (lr, layers, dropout) |
+| **BiLSTM** | Bidirectional RNN | Same config as LSTM, bidirectional added |
+| **DistilBERT** | Transformer (distilled) | HuggingFace Trainer API with early stopping |
+
+---
+
 ## Features
 
 ### Text Preprocessing Pipeline
