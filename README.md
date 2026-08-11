@@ -157,25 +157,6 @@ pip install -r requirements.txt
 ### Train All Models
 
 ```bash
-python train.py
-```
-
-This trains all 6 models sequentially and saves a comparison table to `results/model_comparison.csv`.
-
-Output example:
-
-```
-============================================================
-MODEL COMPARISON RESULTS
-============================================================
-                     accuracy  precision  recall  f1_score  roc_auc
-Logistic Regression    0.8845     0.8902   0.8776    0.8839   0.9521
-Naive Bayes            0.8612     0.8661   0.8548    0.8604   0.9410
-SVM                    0.8810     0.8858   0.8752    0.8805   0.9488
-LSTM                   0.8720     0.8745   0.8698    0.8721      N/A
-BiLSTM                 0.8785     0.8802   0.8762    0.8782      N/A
-DistilBERT             0.9260     0.9281   0.9245    0.9263   0.9765
-```
 
 ### Selective Training
 
