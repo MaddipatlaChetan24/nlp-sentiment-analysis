@@ -73,7 +73,6 @@ def analyze_errors(texts, y_true, y_pred, model_name='Model'):
         print(f"  {i+1}. {fp['text'][:150]}...")
 
     print(f"\n  --- False Negatives (predicted Negative, actually Positive) ---")
-    for i, fn in enumerate(result['false_negatives'][:5]):
-        print(f"  {i+1}. {fn['text'][:150]}...")
+    for i, fn in enumerate(result['false_negatives'][:
 
     return result
